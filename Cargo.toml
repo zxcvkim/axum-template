@@ -5,3 +5,7 @@ edition = "2024"
 
 [dependencies]
 anyhow = "1.0.104"
+axum = "0.8.9"
+serde = { version = "1.0.229", features = ["derive"] }
+thiserror = "2.0.19"
+tracing = "0.1.44"
