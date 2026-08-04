@@ -1,5 +1,5 @@
 use axum::Router;
-use axum_template::{AppState, config::Config, routes};
+use {{ crate_name }}::{AppState, config::Config, routes};
 use tokio::{net::TcpListener, signal};
 use tower_http::trace::TraceLayer;
 use tracing::info;

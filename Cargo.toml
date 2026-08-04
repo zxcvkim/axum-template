@@ -1,7 +1,9 @@
 [package]
-name = "axum-template"
+name = "{{ project-name }}"
 version = "0.1.0"
 edition = "2024"
+description = "{{ description }}"
+license = "{{ license }}"
 
 [dependencies]
 anyhow = "1.0.104"
