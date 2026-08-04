@@ -1,4 +1,5 @@
 pub mod config;
+pub mod routes;
 
 pub mod error;
 pub use error::{AppError, AppResult};
